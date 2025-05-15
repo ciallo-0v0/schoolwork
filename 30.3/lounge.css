@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.left-nav {
+  z-index: 10; 
+  font-size: 14px;
+  position: absolute;
+  top: 60px; 
+  left: 50px;
+}
+
+.left-nav a {
+  margin-right: 45px;
+}
+
+.right-nav {
+  z-index: 10; 
+  font-size: 14px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+.right-nav a {
+  padding: 10px 15px;
+}
+.right-nav a:hover {
+  background-color: gray;
+}
+.l1{
+  border: 1px solid rgb(255, 255, 255); 
+  padding: 10px 15px; 
+}
+.car{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.car img{
+  width: 120%;
+  filter: blur(18px) brightness(55%);
+  transform: scale(1.1);
+}
+.car1{
+  position: absolute;
+  top: 510px;
+  left: 790px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.car1 img{
+  width: 1480px;
+}
+
+.logo{
+  z-index: 10; 
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tip {
+  z-index: 10; 
+  font-size: 17px;
+  font-family: normal,arial,helvetica,sans-serif;
+  background-color: rgba(4, 4, 4, 0.6);
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+  /*left: 50%;*/
+  /*transform: translateX(-50%);*/
+}
+.tip p{
+  color: white;
+  margin: 0px;
+}
+
+.text a{
+  color: black;
+}
+
+/*.move {
+  position: relative;
+  left: 50px;
+}*/
+
+

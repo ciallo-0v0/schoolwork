@@ -1,0 +1,14 @@
+/* 原 .car 选择器改为 .part1 .car，仅匹配 .part1 容器内的 car 类元素 */
+.part1 .car{
+  position: relative; /* 关键：为子元素绝对定位提供参考 */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+} 
+.part1 .car img{
+  width: 120%;
+  filter: blur(18px) brightness(55%);
+  transform: scale(1.1);
+}
